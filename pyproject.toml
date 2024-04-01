@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "fiesta-api-notebooks"
+version = "0.1.0"
+description = ""
+authors = ["Rupert Minnett <rminnett@gmail.com>"]
+readme = "README.md"
+packages = [{include = "fiesta_api_notebooks"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+ipykernel = "^6.29.2"
+requests = "^2.31.0"
+pandas = "^2.2.0"
+python-dotenv = "^1.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
